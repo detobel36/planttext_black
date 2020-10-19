@@ -1,0 +1,39 @@
+/* ==UserScript==
+@name          Dark PlantText
+@namespace     http://userstyles.org
+@description   Dark style for PlainText UML
+@author        detobel36
+@homepage      https://userstyles.org/styles/191059
+@include       https://www.planttext.com/*
+@homepageURL   https://github.com/detobel36/planttext_black
+@supportURL    https://github.com/detobel36/planttext_black/issues
+@updateURL     https://raw.github.com/detobel36/planttext_black/planttext.css
+@run-at        document-start
+@version       0.20201019061904
+==/UserScript== */
+
+body, #menu {
+    background-color: #2e2e2e;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ui-widget-content, #newspop {
+    background: #2e2e2e;
+}
+
+
+#sidebar, #addblock, #scratch, #setting, input, #content {
+    background-color: #212121;
+}
+
+#content a {
+   color:  hsl(229, 38%, 66%)
+}
+
+#scratch, input[type=text], .ui-widget-content a {
+    color: white;
+}
+
+#file-name-output, #file-name-output-pre, #setting, #newspop {
+    color: rgba(255, 255, 255, 0.7);
+}
